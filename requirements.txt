@@ -6,4 +6,4 @@ kneed
 scikit-learn
 tensorflow
 pickle-mixin
-
+openpyxl
