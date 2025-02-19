@@ -12,7 +12,7 @@ from tensorflow.keras.preprocessing.sequence import TimeseriesGenerator
 import pickle
 
 # Loading the data
-data = pd.read_excel(r"C:/Users/manee/OneDrive/Desktop/Code/Medical Inventory Optimaization Dataset.xlsx")
+data = pd.read_excel(r"./Medical Inventory Optimaization Dataset.xlsx")
 
 # Convert 'Dateofbill' from string to datetime format
 data['Dateofbill'] = pd.to_datetime(data['Dateofbill'])
