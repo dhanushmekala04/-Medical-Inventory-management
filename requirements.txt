@@ -1,0 +1,9 @@
+pandas
+matplotlib
+numpy
+tslearn
+kneed
+scikit-learn
+tensorflow
+pickle-mixin
+
