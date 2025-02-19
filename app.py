@@ -11,7 +11,7 @@ from tensorflow.keras.layers import LSTM, Dense
 from tensorflow.keras.preprocessing.sequence import TimeseriesGenerator
 
 # Load the data
-data_path = r"C:/Users/manee/OneDrive/Desktop/Code/Medical Inventory Optimaization Dataset.xlsx"
+data_path = r"./Medical Inventory Optimaization Dataset.xlsx"
 data = pd.read_excel(data_path)
 
 # Data preprocessing
